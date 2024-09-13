@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ipv6_receiver.dir/ipv6_receiver.cpp.o CMakeFiles/ipv6_receiver.dir/main.cpp.o -o /root/lyl/ipv6_vpn_second/bin/ipv6_receiver  /usr/lib64/libpcap.so 
