@@ -16,5 +16,11 @@ struct IPv6DestinationOptionsHeader {
 // 捕获并处理数据包
 void captureIPv6Packets(const std::string& filterAddress);
 
+// 解析扩展头并输出文本信息
+void parseAndPrintExtensionHeader(const u_char* packet);
+
+// 解析并输出IPv6报头信息
+void parseAndPrintIPv6Header(const u_char* packet);
+
 #endif
 
